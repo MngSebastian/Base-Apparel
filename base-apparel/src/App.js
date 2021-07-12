@@ -24,10 +24,9 @@ function App() {
               <div className='form'>
                 <form>
                   <label for="email"></label>
-                  <input type="email" placeholder="   Email Address" id="email" name="email"/>
+                  <input type="email" placeholder="Email Address" id="email" name="email"/>
                 </form>
-                  <button className='btn'>></button>
-                
+                  <button className='btn'>v</button>
               </div>
             </div>
           </div>
@@ -42,3 +41,6 @@ function App() {
 }
 
 export default App;
+// Receive an error message when the form is submitted if:
+// The input field is empty
+// The email address is not formatted correctly
