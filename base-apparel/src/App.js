@@ -27,6 +27,8 @@ function App() {
                   <input type="email" placeholder="Email Address" id="email" name="email"/>
                 </form>
                   <button className='btn'>v</button>
+
+                
               </div>
             </div>
           </div>

@@ -30,6 +30,7 @@
   margin-left: 9%;
   height: 75vh;
   width: 30vw;
+  border: 1px solid red;
 }
 
 .title-paragraph-form {
@@ -103,9 +104,9 @@ h4 {
 }
 
 .btn {
-  width: 6vw;
+  width: 60rem;
   position: relative;
-  left: -86px;
+  left: -2rem;
   border-radius: 20px;
   outline: none;
   border: none;
@@ -118,4 +119,12 @@ h4 {
 
 .btn:hover {
   box-shadow: 0px 0px 15px hsl(0, 53%, 68%);
+}
+
+.div-test {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  width: 40vw;
+  height: 40vh;
 }
